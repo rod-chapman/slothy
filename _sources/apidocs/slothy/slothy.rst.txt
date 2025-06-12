@@ -1,0 +1,49 @@
+:py:mod:`slothy`
+================
+
+.. py:module:: slothy
+
+.. autodoc2-docstring:: slothy
+   :allowtitles:
+
+Subpackages
+-----------
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   slothy.core
+   slothy.targets
+
+Submodules
+----------
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   slothy.helper
+
+Package Contents
+----------------
+
+Data
+~~~~
+
+.. list-table::
+   :class: autosummary longtable
+   :align: left
+
+   * - :py:obj:`__all__ <slothy.__all__>`
+     - .. autodoc2-docstring:: slothy.__all__
+          :summary:
+
+API
+~~~
+
+.. py:data:: __all__
+   :canonical: slothy.__all__
+   :value: ['Slothy', 'SlothyException', 'Config', 'Archery']
+
+   .. autodoc2-docstring:: slothy.__all__
